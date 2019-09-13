@@ -15,7 +15,7 @@ pod 'MobilistenBeta'
 end
 ```
 
-##Sample Application
+## Demo Application
 Download our demo app from the [Apple App Store](http://itunes.apple.com/us/app/mobilisten-by-zoho-salesiq/id1456241226) today! 
 
 ## Documentation
