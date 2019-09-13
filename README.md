@@ -11,7 +11,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
 target 'Project Target' do
-pod 'MobilistenBeta'
+  use_frameworks!
+  pod 'MobilistenBeta', '1.00'
 end
 ```
 
