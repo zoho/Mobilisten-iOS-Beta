@@ -3,6 +3,9 @@ Mobilisten iOS SDK
 
 Power up your mobile app with Mobilisten.
 
+## Changelog
+Added APIs to toggle Camera, Media Share, Screenshot Option, Email Trascript.
+
 ## Installation
 The Mobilisten SalesIQ iOS SDK can be integrated with your application by adding the following to your podfile:
 
