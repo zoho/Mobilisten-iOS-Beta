@@ -5,6 +5,7 @@ Power up your mobile app with Mobilisten.
 
 ## Changelog
 Swift 5.1 Public Framework.
+Light Mode.
 
 ## Installation
 The Mobilisten SalesIQ iOS SDK can be integrated with your application by adding the following to your podfile:
