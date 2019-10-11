@@ -815,6 +815,8 @@ SWIFT_CLASS("_TtC10Mobilisten13TrackingClass")
 
 
 
+
+
 SWIFT_CLASS("_TtC10Mobilisten12VisitorClass")
 @interface VisitorClass : NSObject
 /// This API is used to fill the visitor’s name in the chat widget text box.Even if the visitor name field is hidden from the chat widget, the API can still set the visitor name and display it to the agent.
@@ -1795,6 +1797,8 @@ SWIFT_CLASS("_TtC10Mobilisten13TrackingClass")
 
 
 
+
+
 SWIFT_CLASS("_TtC10Mobilisten12VisitorClass")
 @interface VisitorClass : NSObject
 /// This API is used to fill the visitor’s name in the chat widget text box.Even if the visitor name field is hidden from the chat widget, the API can still set the visitor name and display it to the agent.
@@ -2705,6 +2709,8 @@ SWIFT_CLASS("_TtC10Mobilisten13TrackingClass")
 - (void)setCustomAction:(NSString * _Nullable)actionname action:(id _Nullable)action;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 
