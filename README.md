@@ -4,7 +4,7 @@ Mobilisten iOS SDK
 Power up your mobile app with Mobilisten.
 
 ## Changelog
-Swift 5 Bug fixes and performance improvement build
+Bug fixes and performance improvement, built with Swift 5.0
 ## Installation
 The Mobilisten SalesIQ iOS SDK can be integrated with your application by adding the following to your podfile:
 
