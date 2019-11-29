@@ -90,10 +90,6 @@
  */
 + (LDWmsService *)CONTACTS;
 /**
- * Zoho Creator
- */
-+ (LDWmsService *)CREATOR;
-/**
  * Zoho People
  */
 + (LDWmsService *)PEOPLE;

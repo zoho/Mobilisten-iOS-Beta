@@ -35,7 +35,7 @@
 @property int timeout;
 @property NSString *sid;
 @property NSString *xa;
-@property(nonatomic, weak) id <PEXConnectionHandler> PexConnectionHandlerdelegate;
+@property id <PEXConnectionHandler> PexConnectionHandlerdelegate;
 - (void)process:(LDPEXEvent *)evt andEventHandler:(id)eventHandler;
 - (void)process:(LDPEXEvent *)evt;
 - (void)initWithCredentials:(LDPEXCredentials *)theCredentials prd:(LDWmsService *)prd andconfig:(NSString *)configs;
