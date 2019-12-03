@@ -4,7 +4,7 @@ Mobilisten iOS SDK
 Power up your mobile app with Mobilisten.
 
 ## Changelog
-Added support for setting ZohoSalesIQDelegate in Objective-C projects, Built with swift 5.1 compiler.
+Added support for setting ZohoSalesIQDelegate in Objective-C projects, Built with swift 5.0 compiler - Debug.
 ## Installation
 The Mobilisten SalesIQ iOS SDK can be integrated with your application by adding the following to your podfile:
 
@@ -14,7 +14,7 @@ platform :ios, '9.0'
 
 target 'Project Target' do
   use_frameworks!
-  pod 'MobilistenBeta', '0.09'
+  pod 'MobilistenBeta', '0.10'
 end
 ```
 
