@@ -4,7 +4,7 @@ Mobilisten iOS SDK
 Power up your mobile app with Mobilisten.
 
 ## Changelog
-Complete removal of bluetooth dependency from SDK
+Fixed missing translation in feedback screen. Compiled using Swift 5.1.2
 ## Installation
 The Mobilisten SalesIQ iOS SDK can be integrated with your application by adding the following to your podfile:
 
@@ -14,7 +14,7 @@ platform :ios, '9.0'
 
 target 'Project Target' do
   use_frameworks!
-  pod 'MobilistenBeta', '1.17'
+  pod 'MobilistenBeta', '1.18'
 end
 ```
 
