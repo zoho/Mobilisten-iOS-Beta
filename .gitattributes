@@ -1,3 +1,0 @@
-*.dSYM filter=lfs diff=lfs merge=lfs -text
-Debug[[:space:]]Symbols/Release-iphoneos/Mobilisten.framework.dSYM filter=lfs diff=lfs merge=lfs -text
-Debug[[:space:]]Symbols/Release-iphonesimulator/Mobilisten.framework.dSYM filter=lfs diff=lfs merge=lfs -text
