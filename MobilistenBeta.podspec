@@ -30,7 +30,7 @@ LICENSE
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
 spec.source = {
-    "git" => "https://github.com/zoho/Mobilisten-iOS-Beta.git/Mobilisten.zip",
+    "git" => "https://github.com/zoho/Mobilisten-iOS-Beta.git",
     "tag" => "v#{spec.version}"
   }
 spec.source_files = 'Mobilisten.framework/Headers/*.{h,m,swift}'
