@@ -29,7 +29,7 @@ LICENSE
 
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
-spec.source = { :http => "https://github.com/zoho/Mobilisten-iOS-Beta/blob/v#{spec.version}/Mobilisten.framework.zip" }
+spec.source = { :http => "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/v#{spec.version}/Mobilisten.framework.zip" }
 spec.source_files = 'Mobilisten.framework/Headers/*.{h,m,swift}'
 spec.ios.vendored_frameworks = 'Mobilisten.framework'
 spec.social_media_url = "http://zoho.com"
