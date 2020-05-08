@@ -4,8 +4,7 @@ Mobilisten iOS SDK
 Power up your mobile app with Mobilisten.
 
 ## Changelog
-Built using swift 5.1.2
-Fixes an issue in setDepartment API, Performance improvements,
+Built using swift 5.1
 ## Installation
 The Mobilisten SalesIQ iOS SDK can be integrated with your application by adding the following to your podfile:
 
@@ -15,7 +14,7 @@ platform :ios, '9.0'
 
 target 'Project Target' do
   use_frameworks!
-  pod 'MobilistenBeta', '1.29'
+  pod 'MobilistenBeta', '1.30'
 end
 ```
 
