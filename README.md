@@ -4,7 +4,8 @@ Mobilisten iOS SDK
 Power up your mobile app with Mobilisten.
 
 ## Changelog
-Build with Forms support. Swift 5.1.2.
+- Forms Support
+- Fix for a bug in projects which has a SceneDelegate
 ## Installation
 The Mobilisten SalesIQ iOS SDK can be integrated with your application by adding the following to your podfile:
 
@@ -14,7 +15,7 @@ platform :ios, '9.0'
 
 target 'Project Target' do
   use_frameworks!
-  pod 'MobilistenBeta', '1.33'
+  pod 'MobilistenBeta', '1.32-beta+xc02'
 end
 ```
 
