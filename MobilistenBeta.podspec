@@ -4,7 +4,7 @@ spec.version          = "3.4.5"
 spec.summary          = "Mobilisten Beta iOS SDK"
 spec.license          = { :type => "MIT", :text=> <<-LICENSE
 MIT License
-Copyright (c) 2018 Zoho Corporation
+Copyright (c) 2020 Zoho Corporation
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -26,8 +26,8 @@ LICENSE
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
 spec.source = { :http => "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/v#{spec.version}/Mobilisten.zip" }
-spec.source_files = 'Mobilisten.framework/Headers/*.{h,m,swift}'
-spec.ios.vendored_frameworks = 'Mobilisten.framework'
+spec.source_files = 'Mobilisten.xcframework/*/Mobilisten.framework/Headers/*.{h,m,swift}'
+spec.ios.vendored_frameworks = 'Mobilisten.xcframework'
 spec.social_media_url = "http://zoho.com"
 spec.ios.deployment_target = '9.0'
 spec.requires_arc = true
