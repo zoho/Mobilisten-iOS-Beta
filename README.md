@@ -1,4 +1,4 @@
-# SalesIQ Mobilisten  iOS SDK 3.5
+# SalesIQ Mobilisten  iOS SDK 3.6
 
 Connect with customers at every step of their journey. Give them the best in-app live chat experience with Mobilisten. Mobilisten enables customers to reach you from any screen on your app, get their questions answered, and make better purchase decisions.  
 
@@ -14,7 +14,7 @@ platform :ios, '9.0'
 
 target 'Project Target' do
   use_frameworks!
-  pod 'MobilistenBeta', '3.5.15'
+  pod 'MobilistenBeta', '3.6.1.1'
 end
 ```
 
