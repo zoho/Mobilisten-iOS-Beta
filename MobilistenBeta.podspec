@@ -1,3 +1,4 @@
+
 Pod::Spec.new do |spec|
 spec.name             = "MobilistenBeta"
 spec.version          = "3.6.3.10"
@@ -26,12 +27,9 @@ LICENSE
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
 spec.source = { :http => "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/v#{spec.version}/Mobilisten.zip" }
-spec.source_files = 'Mobilisten.framework/Headers/*.{h,m,swift}'
-spec.ios.vendored_frameworks = 'Mobilisten.framework'
+spec.source_files = 'Mobilisten.xcframework/*/Mobilisten.framework/Headers/*.{h,m,swift}'
+spec.ios.vendored_frameworks = 'Mobilisten.xcframework'
 spec.social_media_url = "http://zoho.com"
 spec.ios.deployment_target = '9.0'
-spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-}
 spec.requires_arc = true
 end
