@@ -15,7 +15,7 @@ Here is an example Podfile where Mobilisten is included.
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'Project Target' do
   use_frameworks!
