@@ -1,9 +1,9 @@
 [![Platform](https://img.shields.io/badge/platforms-iOS-orange.svg)](https://cocoapods.org/pods/MobilistenBeta)
 [![SupportedLanguages](https://img.shields.io/badge/languages-Swift%20%7C%20%20ObjectiveC-green.svg)](https://www.zoho.com/salesiq/help/developer-section/ios-mobile-sdk-installation.html)
-[![Version](https://img.shields.io/badge/version-5.4.2-blue.svg)](https://cocoapods.org/pods/Mobilisten)
+[![Version](https://img.shields.io/badge/version-8.0.0-blue.svg)](https://cocoapods.org/pods/Mobilisten)
 [![Cocoapods CDI](https://github.com/zoho/SalesIQ-Mobilisten-iOS/workflows/Cocoapods%20CD/badge.svg)](https://github.com/zoho/SalesIQ-Mobilisten-iOS/actions?query=workflow%3A%22Cocoapods+CD%22)
 
-# SalesIQ Mobilisten  iOS SDK 5.4.2-alpha
+# SalesIQ Mobilisten  iOS SDK 8.0.0-beta
 
 Connect with customers at every step of their journey. Give them the best in-app live chat experience with Mobilisten. Mobilisten enables customers to reach you from any screen on your app, get their questions answered, and make better purchase decisions.  
 
@@ -19,7 +19,7 @@ platform :ios, '11.0'
 
 target 'Project Target' do
   use_frameworks!
-  pod 'MobilistenBeta', '5.4.2-alpha'
+  pod 'MobilistenBeta', '8.0.0-beta'
 end
 ```
 
