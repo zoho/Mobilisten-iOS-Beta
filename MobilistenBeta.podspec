@@ -28,7 +28,6 @@ spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
 spec.source = { :http => "https://github.com/zoho/Mobilisten-iOS-Beta/releases/download/v#{spec.version}/Mobilisten.zip" }
 spec.ios.vendored_frameworks = '*.xcframework'
-spec.source_files = '**/*.xcframework/Headers/**/*.h'
 spec.social_media_url = "http://zoho.com"
 spec.ios.deployment_target = '13.0'
 spec.requires_arc = true
