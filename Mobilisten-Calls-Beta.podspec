@@ -26,11 +26,11 @@ LICENSE
 
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
-spec.source = { :http => "https://github.com/zoho/Mobilisten-iOS-Beta/releases/download/#{lib_version}/Mobilisten-Calls.zip" }
+spec.source = { :http => "https://github.com/zoho/Mobilisten-iOS-Beta/releases/download/v#{lib_version}/Mobilisten-Calls.zip" }
 spec.ios.vendored_frameworks = '*.xcframework'
 spec.source_files = '**/*.framework/Headers/**/*.{h,m,swift}'
 spec.social_media_url = "http://zoho.com"
 spec.ios.deployment_target = '13.0'
 spec.requires_arc = true
-spec.readme = "https://raw.githubusercontent.com/zoho/SalesIQ-Mobilisten-iOS/v#{lib_version}/README.md"
+spec.readme = "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/v#{lib_version}/README.md"
 end
