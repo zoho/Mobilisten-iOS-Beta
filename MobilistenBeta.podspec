@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 spec.name             = "MobilistenBeta"
-spec.version          = "8.0.0-beta"
+spec.version          = "10.0.0-beta"
 spec.summary          = "Mobilisten Beta iOS SDK"
 spec.license          = { :type => "MIT", :text=> <<-LICENSE
 MIT License
@@ -26,9 +26,9 @@ LICENSE
 
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
-spec.source = { :http => "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/v#{spec.version}/Mobilisten.zip" }
+spec.source = { :http => "https://github.com/zoho/Mobilisten-iOS-Beta/releases/download/#{lib_version}/Mobilisten.zip" }
 spec.source_files = 'Mobilisten.xcframework/*/Mobilisten.framework/Headers/*.{h,m,swift}'
-spec.ios.vendored_frameworks = 'Mobilisten.xcframework'
+spec.ios.vendored_frameworks = '*.xcframework'
 spec.social_media_url = "http://zoho.com"
 spec.ios.deployment_target = '11.0'
 spec.requires_arc = true
