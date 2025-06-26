@@ -1,7 +1,7 @@
-lib_version = "10.0.1-beta"
+lib_version = "10.0.2-beta"
 Pod::Spec.new do |spec|
 spec.name             = "Mobilisten-Calls-Beta"
-spec.version          = "1.0.1-beta"
+spec.version          = "1.0.2-beta"
 spec.summary          = "Mobilisten iOS Calls SDK"
 spec.license          = { :type => "MIT", :text=> <<-LICENSE
 MIT License
@@ -26,7 +26,7 @@ LICENSE
 
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
-spec.source = { :http => "https://github.com/zoho/Mobilisten-iOS-Beta/releases/download/v#{lib_version}/Mobilisten-Calls.zip" }
+spec.source = { :http => "https://github.com/zoho/Mobilisten-iOS-Beta/releases/download/Calls-#{spec.version}/Mobilisten-Calls.zip" }
 spec.ios.vendored_frameworks = '*.xcframework'
 spec.source_files = '**/*.framework/Headers/**/*.{h,m,swift}'
 spec.social_media_url = "http://zoho.com"
